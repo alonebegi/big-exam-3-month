@@ -1,0 +1,370 @@
+/* jost-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/jost-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* jost-italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/jost-v15-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* jost-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/jost-v15-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* jost-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/jost-v15-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* fonts end */
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Jost;
+  }
+
+  html{
+    width: 100%;
+  }
+
+button{
+  cursor: pointer;
+}
+
+  body{
+    width: 100%;
+   
+  }
+
+  ul{
+    list-style: none;
+    text-decoration: none;
+  }
+
+  a{
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  section{
+    width: 100%;
+    max-width: 1111px;
+  }
+
+  .container{
+    width: 100%;
+    max-width: 1111px;
+    margin: 0px auto;
+    /* border: 2px solid grey; */
+  }
+
+  .section-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 65px 0px;
+  }
+
+  .top-home-menu ul li a{
+     color: #333136;
+     font-size: 14px;
+     font-family: Jost;
+     font-weight: 400;
+     line-height: 14px;
+     letter-spacing: 2px;
+     word-wrap: break-word;
+  }
+  
+  .top-home-menu ul{
+    display: flex ;
+    align-items: center;
+    gap: 42px;
+  }
+
+  /* 2 pazitsiya */
+
+  .award-section{
+    width: 100%;
+    max-width: 1111px;
+    height: 640px;
+    background-image: url(..//images/png/Group\ 64\ Copy.png);
+    background-position: center;
+    padding: 145px 0px 0px 95px;
+    margin-bottom: 160px;
+  }
+
+  .award-text{
+    max-width: 540px;
+    color: white;
+     font-size: 48px;
+     font-family: Jost;
+     font-weight: 500;
+     line-height: 48px;
+     word-wrap: break-word;
+     margin-bottom: 16px;
+  }
+
+  .award-title{
+    width: 445px;
+     color: white;
+     font-size: 16px;
+     font-family: Jost;
+     font-weight: 400;
+     line-height: 26px;
+     word-wrap: break-word;
+     margin-bottom: 70px;
+  }
+
+  .award-link{
+    padding: 17px 24px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #48464a;
+     font-size: 15px;
+     font-family: Jost;
+     font-weight: 500;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     word-wrap: break-word;
+  }
+
+  /* 3 pazitsiya */
+
+
+  .sections-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+  }
+
+  .sections-left{
+    width: 100%;
+    max-width: 540px;
+    height: 640px;
+    background-position: center;
+    background-image: url(../images/png/Bitmap\ \(16\).png);
+    cursor: pointer;
+    text-align: center;
+    padding-top: 273px;
+  }
+
+ .sections-right{
+    width: 100%;
+    max-width: 50%;
+ }
+
+ .app-design-link{
+    cursor: pointer;
+    width: 100%;
+    max-width: 541px;
+    height: 308px;
+    background-image: url(../images/png/Bitmap\ \(15\).png);
+    margin-bottom: 24px;
+    padding-top: 107px;
+ }
+
+ .grafik-design-link{
+    cursor: pointer;
+    width: 100%;
+    max-width: 541px;
+    height: 308px;
+    background-image: url(../images/png/Bitmap\ \(14\).png);
+    padding-top: 107px;
+ }
+
+ .web-design-link{
+     color: white;
+     font-size: 40px;
+     font-family: Jost;
+     font-weight: 500;
+     line-height: 48px;
+     letter-spacing: 2px;
+     word-wrap: break-word;
+     text-align: center;
+ }
+
+ .wiew-web-title{
+     color: white;
+     font-size: 15px;
+     font-family: Jost;
+     font-weight: 500;
+     text-transform: uppercase;
+     letter-spacing: 5px;
+     word-wrap: break-word;
+     margin-top: 24px;
+     text-align: center;
+ }
+ 
+ /* 4 pazitsiya */
+
+ .comfortable-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+ }
+
+ .comfortable-box{
+    width: 100%;
+    max-width: 355px;
+ }
+
+ .comfortable-img{
+    text-align: center;
+ }
+
+ .comfortable-text{
+    text-align: center;
+     color: #333136;
+     font-size: 20px;
+     font-family: Jost;
+     font-weight: 500;
+     line-height: 26px;
+     letter-spacing: 5px;
+     word-wrap: break-word;
+    margin: 48px 0px 32px 0px;
+ }
+
+ .comfortable-title{
+    width: 350px;
+    color: #333136; 
+     font-size: 16px;
+     font-family: Jost;
+     font-weight: 400;
+     line-height: 26px;
+     word-wrap: break-word;
+     text-align: center;
+ }
+
+ /* 5 pazitsiya */
+
+ .designs-section{
+  padding-bottom: 71px;
+  width: 100%;
+  max-width: 1111px;
+  background-color: #1D1C1E;
+  margin: 0px auto;
+ }
+
+
+ .top-designs-section{
+  width: 100%;
+  max-width: 1111px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 144px 0px 40px 0px;
+  border-bottom: 1px solid white;
+  margin-bottom: 31px;
+  
+ }
+
+ .bottom-designs-section{
+  display: flex;
+  align-items: center;
+ }
+
+ .designs-box{
+  width: 100%;
+  max-width: 300px;
+   color: rgb(183, 182, 182);
+   font-size: 16px;
+   font-family: Jost;
+   font-weight: 700;
+   line-height: 26px;
+   word-wrap: break-word;
+ }
+
+ .designs-section .top-designs-section ul li a{
+  color: white ;
+ }
+
+ .internetional-img{
+  margin-top: 50px;
+ }
+
+ .dad-designs-section{
+  width: 100%;
+  max-width: 100%;
+  background-color: #1D1C1E ;
+  margin: 0px auto;
+  position: relative;
+ }
+
+ /* 6pozitsiya */
+
+ .lets-talk-bg-section{
+  width: 100%;
+  max-width: 1111px;
+  background-color: #E7816B;
+  display: flex;
+  padding: 72px 0px 56px 95px;
+  border-radius: 15px;
+  margin-bottom: 106px;
+  
+ }
+
+ .talk-text{
+  width: 100%;
+  max-width: 268px;
+   color: white;
+   font-size: 40px;
+   font-family: Jost;
+   font-weight: 500;
+   line-height: 40px;
+   word-wrap: break-word;
+   margin-bottom: 7px;
+ }
+
+ .talk-title{
+  width: 100%;
+  max-width: 459px;
+ color: white;
+ font-size: 16px;
+ font-family: Jost;
+ font-weight: 400;
+ line-height: 26px;
+ word-wrap: break-word;
+ }
+
+ .talk-menu{
+  margin-right: 309px;
+ }
+
+.get-button{
+  padding: 17px 19px;
+  background-color: #fff;
+}
+
+.talk-button{
+  width: 152px;
+  height: 56px;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  color: #333136;
+   font-size: 15px;
+   font-family: Jost;
+   font-weight: 500;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   word-wrap: break-word;
+}
+

@@ -1,0 +1,196 @@
+/* jost-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/jost-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* jost-italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/jost-v15-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* jost-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/jost-v15-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* jost-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/jost-v15-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* fonts end */
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Jost;
+  }
+
+  html{
+    width: 100%;
+  }
+
+button{
+  cursor: pointer;
+}
+
+  body{
+    width: 100%;
+   
+  }
+
+  ul{
+    list-style: none;
+    text-decoration: none;
+  }
+
+  a{
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  section{
+    width: 100%;
+    max-width: 1111px;
+  }
+
+  .container{
+    width: 100%;
+    max-width: 1111px;
+    margin: 0px auto;
+  }
+
+  .section-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 65px 0px;
+  }
+
+  .top-home-menu ul li a{
+     color: #333136;
+     font-size: 14px;
+     font-family: Jost;
+     font-weight: 400;
+     line-height: 14px;
+     letter-spacing: 2px;
+     word-wrap: break-word;
+  }
+  
+  .top-home-menu ul{
+    display: flex ;
+    align-items: center;
+    gap: 42px;
+  }
+
+  /* 2pazitsiya */
+  .canada-location{
+    width: 100%;
+    max-width: 1111px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .australia-location{
+    width: 100%;
+    max-width: 1111px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px ;
+  }
+
+  .kingdom-location{
+    width: 100%;
+    max-width: 1111px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .canada-menu-text{
+   width: 100%;
+   max-width: 730px;
+   height: 326px;
+   background-image: url(../images/png/Group\ 6\ \(1\).png);
+  }
+
+  /* 3pazitsiya */
+
+  .canada-menu-text h2{
+   text-align: center;
+   color: #E7816B;
+   margin: 130px 0px;
+  }
+
+  /* 4pazitsiya */
+
+  .designs-section{
+    padding-bottom: 71px;
+    width: 100%;
+    max-width: 1111px;
+    background-color: #1D1C1E;
+    margin: 0px auto;
+   }
+  
+  
+   .top-designs-section{
+    width: 100%;
+    max-width: 1111px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 144px 0px 40px 0px;
+    border-bottom: 1px solid white;
+    margin-bottom: 31px;
+    
+   }
+  
+   .bottom-designs-section{
+    display: flex;
+    align-items: center;
+   }
+  
+   .designs-box{
+    width: 100%;
+    max-width: 300px;
+     color: rgb(183, 182, 182);
+     font-size: 16px;
+     font-family: Jost;
+     font-weight: 700;
+     line-height: 26px;
+     word-wrap: break-word;
+   }
+  
+   .designs-section .top-designs-section ul li a{
+    color: white ;
+   }
+  
+   .internetional-img{
+    margin-top: 50px;
+   }
+  
+   .dad-designs-section{
+    width: 100%;
+    max-width: 100%;
+    background-color: #1D1C1E ;
+    margin: 0px auto;
+    position: relative;
+   }
+  

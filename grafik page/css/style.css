@@ -1,0 +1,391 @@
+/* jost-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/jost-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* jost-italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/jost-v15-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* jost-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/jost-v15-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* jost-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/jost-v15-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* fonts end */
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Jost;
+  }
+
+  html{
+    width: 100%;
+  }
+
+button{
+  cursor: pointer;
+}
+
+  body{
+    width: 100%;   
+  }
+
+  ul{
+    list-style: none;
+    text-decoration: none;
+  }
+
+  a{
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  section{
+    width: 100%;
+    max-width: 1111px;
+  }
+
+  .container{
+    width: 100%;
+    max-width: 1111px;
+    margin: 0px auto;
+  }
+
+  /* 1 pazitsiya */
+
+  .section-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 65px 0px;
+  }
+
+  .top-home-menu ul li a{
+     color: #333136;
+     font-size: 14px;
+     font-family: Jost;
+     font-weight: 400;
+     line-height: 14px;
+     letter-spacing: 2px;
+     word-wrap: break-word;
+  }
+
+  .top-icon{
+    cursor: pointer;
+  }
+  
+  .top-home-menu ul{
+    display: flex ;
+    align-items: center;
+    gap: 42px;
+  }
+
+  /* 2 pazitsiya */
+
+  .web-designer{
+    width: 100%;
+    max-width: 1111px;
+    height: 252px;
+    background-image: url(../images/png/Group\ 6.png);
+    background-position: center;
+    padding-top: 64px;
+    margin-bottom: 160px;
+  }
+
+  .web-designer-text{
+    color: white;
+     font-size: 48px;
+     font-family: Jost;
+     font-weight: 500;
+     line-height: 48px;
+     word-wrap: break-word;
+     text-align: center;
+  }
+
+  .web-designer-title{
+    width: 100%;
+    max-width: 730px;
+     color: white;
+     font-size: 16px;
+     font-family: Jost;
+     font-weight: 400;
+     line-height: 26px;
+     word-wrap: break-word;
+     text-align: center;
+     margin: 10px auto 0px;
+  }
+
+  /* 3pazitsiya */
+
+  .web-imgs-menu{
+    width: 100%;
+    max-width: 1111px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    margin-bottom: 160px;
+  }
+
+  .web-imgs-box{
+    width: 100%;
+    max-width: 350px;
+    /* border: 1px solid red; */
+    background-color: #f8f1f1;
+    border-radius: 15px;
+  }
+
+  .expres-text{
+     color: #E7816B;
+     font-size: 20px;
+     font-family: Jost;
+     font-weight: 500;
+     line-height: 26px;
+     letter-spacing: 5px;
+     word-wrap: break-word;
+     text-align: center;
+     margin-top: 16px;
+  }
+
+  .expres-title{
+    width: 100%;
+    max-width: 286px;
+     color: #333136;
+     font-size: 16px;
+     font-family: Jost;
+     font-weight: 400;
+     line-height: 26px;
+     word-wrap: break-word;
+     text-align: center;
+     margin: 15px auto 32px;
+  }
+
+  /* 4pazitsiya */
+
+  .web-imgs-blog{
+    width: 100%;
+    max-width: 1111px;
+    display: flex;
+    margin-bottom: 32px;
+    margin-bottom: 160px;
+  }
+
+  /* 5-pazitsiya */
+
+  .app-menu{
+    width: 100%;
+    max-width: 1111px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+  }
+
+  .app-boxses{
+    width: 100%;
+    max-width: 541px;
+    height: 308px;
+    border-radius: 15px;
+    padding: 107px 0px 0px 0px;
+    background-image: url(../images/png/Bitmap\ \(17\).png);
+  }
+
+  .web-img-text-design{
+    color: white;
+     font-size: 40px;
+     font-family: Jost;
+     font-weight: 500;
+     line-height: 48px;
+     letter-spacing: 2px;
+     text-align: center;
+     word-wrap: break-word;
+  }
+
+  .web-wiew-title{
+    color: white;
+     font-size: 15px;
+     font-family: Jost;
+     font-weight: 500;
+     text-transform: uppercase;
+     letter-spacing: 5px;
+     word-wrap: break-word;
+     margin-top: 24px;
+     text-align: center;
+  }
+
+  .grafik-boxses{
+    width: 100%;
+    max-width: 541px;
+    height: 308px;
+    background-image: url(../images/png/Bitmap\ \(18\).png);
+    border-radius: 15px;
+    padding: 107px 0px 0px 0px;
+  }
+
+  /* 6-pazitsiya */
+
+  .lets-talk-bg-section{
+    width: 100%;
+    max-width: 1111px;
+    background-color: #E7816B;
+    display: flex;
+    padding: 72px 0px 56px 95px;
+    border-radius: 15px;
+    margin-bottom: 106px;
+    
+   }
+  
+   .talk-text{
+    width: 100%;
+    max-width: 268px;
+     color: white;
+     font-size: 40px;
+     font-family: Jost;
+     font-weight: 500;
+     line-height: 40px;
+     word-wrap: break-word;
+     margin-bottom: 7px;
+   }
+  
+   .talk-title{
+    width: 100%;
+    max-width: 459px;
+   color: white;
+   font-size: 16px;
+   font-family: Jost;
+   font-weight: 400;
+   line-height: 26px;
+   word-wrap: break-word;
+   }
+  
+   .talk-menu{
+    margin-right: 309px;
+   }
+  
+  .get-button{
+    padding: 17px 19px;
+    background-color: #fff;
+  }
+  
+  .talk-button{
+    width: 152px;
+    height: 56px;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    color: #333136;
+     font-size: 15px;
+     font-family: Jost;
+     font-weight: 500;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     word-wrap: break-word;
+  }
+
+  /* 7pzaitsiya */
+
+  .designs-section{
+    padding-bottom: 71px;
+    width: 100%;
+    max-width: 1111px;
+    background-color: #1D1C1E;
+    margin: 0px auto;
+   }
+  
+  
+   .top-designs-section{
+    width: 100%;
+    max-width: 1111px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 144px 0px 40px 0px;
+    border-bottom: 1px solid white;
+    margin-bottom: 31px;
+    
+   }
+  
+   .bottom-designs-section{
+    display: flex;
+    align-items: center;
+   }
+  
+   .designs-box{
+    width: 100%;
+    max-width: 300px;
+     color: rgb(183, 182, 182);
+     font-size: 16px;
+     font-family: Jost;
+     font-weight: 700;
+     line-height: 26px;
+     word-wrap: break-word;
+   }
+  
+   .designs-section .top-designs-section ul li a{
+    color: white ;
+   }
+  
+   .internetional-img{
+    margin-top: 50px;
+    margin-left: 85px;
+   }
+  
+   .dad-designs-section{
+    width: 100%;
+    max-width: 100%;
+    background-color: #1D1C1E ;
+    margin: 0px auto;
+    position: relative;
+   }
+
+   /* hover */
+
+   .talk-button:hover{
+    background-color: #FFAD9B;
+    color: white;
+   }
+
+   .web-imgs-box:hover{
+    background-color: #f6a492;
+    cursor: pointer;
+   }
+   .web-imgs-box .expres-title:hover{
+    color: white;
+   }
+
+   .expres-text:hover{
+    color: white;
+   }
+
+   .expres-title:hover{
+    color: white;
+   }
+
+a:hover{
+  border-bottom: 1px solid white;
+}
+
